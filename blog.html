@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Our Website!</title>
+  <style>
+    /* styles.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.banner {
+  display: flex;
+  height: 60vh;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.banner-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.banner-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #3498db;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.banner-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.banner-image {
+  flex: 1;
+  background: url('banner-image.jpg') no-repeat center/cover;
+}
+
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Captivating Headline</h1>
+      <p>A compelling description of your product or service.</p>
+      <a href="#" class="banner-btn">Learn More</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
